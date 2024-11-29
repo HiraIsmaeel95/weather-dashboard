@@ -18,3 +18,7 @@ npm install
 ### 2. Run the application locally
 
 npm start
+    
+### 2. Run the tests locally
+
+npm test

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = process.env.WEATHER_API_BASE_URL;
+const BASE_URL = process.env.WEATHER_API_BASE_URL || 'https://api.openweathermap.org/data/2.5/';;
 
 export async function getWeatherData<T>(url: string, params: Record<string, any>): Promise<T> {
   try {
